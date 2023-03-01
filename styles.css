@@ -3,6 +3,7 @@
 
 :root {
     --primary-color: #7c3aed;
+    --dark-gray: #6b7280;
 
 
 }
@@ -41,7 +42,7 @@ hr  {
     border-radius: 0.5rem;
     color: white;
 
-    /* COMMENTED 
+    /* 
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem; */
@@ -52,7 +53,7 @@ hr  {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 
-    /* COMMENTED
+    /* 
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem; */
@@ -63,7 +64,7 @@ hr  {
 
 .list-non-bullet {
     list-style: none;
-    /* COMMENTED
+    /* 
     padding-inline-start: 0px; */
 }
 
@@ -97,4 +98,33 @@ hr  {
 
 .navigation .link-active {
     font-weight: bold;
+}
+
+
+/** header **/
+
+.hero {
+    padding: 2rem;
+
+    /* padding-top: 5rem; */
+
+}
+
+.hero .hero-img {
+    max-width: 80%;
+
+    /* width: 350px; */
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    /* text-align: center; */
+
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
 }
