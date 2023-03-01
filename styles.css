@@ -64,8 +64,7 @@ hr  {
 
 .list-non-bullet {
     list-style: none;
-    /* 
-    padding-inline-start: 0px; */
+
 }
 
 .list-item-inline {
@@ -105,22 +104,19 @@ hr  {
 
 .hero {
     padding: 2rem;
-
-    /* padding-top: 5rem; */
+    padding-top: 5rem;
 
 }
 
 .hero .hero-img {
     max-width: 80%;
-
-    /* width: 350px; */
+    width: 550px;
     display: block;
     margin: auto;
 }
 
 .hero .hero-heading {
-    /* text-align: center; */
-
+    text-align: center;
     padding-top: 1rem;
     color: var(--dark-gray);
 }
