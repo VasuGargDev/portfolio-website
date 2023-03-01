@@ -64,6 +64,7 @@ hr  {
 
 .list-non-bullet {
     list-style: none;
+    padding-inline-start: 0px; /*for overriding UASS*/
 
 }
 
