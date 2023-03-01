@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
+
+:root {
+    --primary-color: #7c3aed;
+
+
+}
 body {
     font-family: 
     'Noto Sans', 
@@ -10,6 +16,8 @@ body {
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
+    /* padding: 0rem 1 rem */ /* (top right bottom left) -> (0 1 0 1) */
+    /* hence this is same as above */
 }
 
 .container-center {
@@ -17,3 +25,29 @@ body {
     margin: auto;
 }    
 
+/** links **/
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+}
