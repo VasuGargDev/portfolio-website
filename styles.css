@@ -42,10 +42,9 @@ hr  {
     border-radius: 0.5rem;
     color: white;
 
-    /* 
     display: block;
     max-width: 140px;
-    margin: 1rem 1rem 1rem 0rem; */
+    margin: 1rem 1rem 1rem 0rem;
 }
 
 .link-secondary {
@@ -53,10 +52,9 @@ hr  {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 
-    /* 
     display: block;
     max-width: 140px;
-    margin: 1rem 1rem 1rem 0rem; */
+    margin: 1rem 1rem 1rem 0rem;
 }
 
 
@@ -80,7 +78,7 @@ hr  {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-brand {
@@ -111,7 +109,7 @@ hr  {
 
 .hero .hero-img {
     max-width: 80%;
-    width: 550px;
+    width: 450px;
     display: block;
     margin: auto;
 }
